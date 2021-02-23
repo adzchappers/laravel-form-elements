@@ -1,0 +1,37 @@
+{
+    "name": "adzchappers/laravel-form-elements",
+    "description": "A collection of Laravel Form Blade Elements to allow easy creation of forms with reusable code.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Chapman",
+            "email": "adam.php.dev@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/adzchappers/laravel-form-elements",
+    "keywords": ["Laravel", "LaravelFormElements", "Laravel Form", "Laravel Form Elements", "Blade Form Elements", "Blade Form Components"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdzChappers\\LaravelFormElements\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdzChappers\\LaravelFormElements\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdzChappers\\LaravelFormElements\\ServiceProvider"
+            ]
+        }
+    }
+}
