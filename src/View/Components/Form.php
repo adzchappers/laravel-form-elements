@@ -46,7 +46,6 @@ class Form extends Component
             $error_bag = session('errors')->getBag('default');
 
             if ($error_bag && !$error_bag->isEmpty()) {
-                dump($error_bag);
                 return true;
             }
         }
